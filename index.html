@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - The Student Spot</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 50px;
+      color: white;
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.03);
+    }
+
+    .about {
+      background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    }
+
+    .mission {
+      background: linear-gradient(135deg, #11998e, #38ef7d);
+    }
+
+    .team {
+      background: linear-gradient(135deg, red, orange);
+    }
+
+    .what-we-do {
+      background: linear-gradient(135deg, #f7971e, #ffd200);
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .about h2 {
+      background: linear-gradient(90deg, black, #ff8c00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .mission h2 {
+      background: linear-gradient(90deg, black, #4facfe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .team h2 {
+      background: linear-gradient(90deg, black, #fbc2eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .what-we-do h2 {
+      background: linear-gradient(90deg, black, #f9d423);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .team-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .team-member {
+      background-color: blue;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: left;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .team-member:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+      background: hotpink;
+    }
+
+    .team-member h3 {
+      font-size: 1.5rem;
+      color: yellow;
+      text-align: center;
+    }
+
+    .team-member p {
+      font-size: 1rem;
+      color: white;
+      margin: 6px 0;
+      line-height: 1.5;
+    }
+
+    .team-member p strong {
+      color:yellow;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: white;
+      color: #f7971e;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      font-size: 20px;
+    }
+
+    .cta-btn:hover {
+      background: #333;
+      color: blue;
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .team-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About The Student Spot</h1>
+  </header>
+
+  <section class="about">
+    <h2>About the Community</h2>
+    <p>The Student Spot is a vibrant online community designed to empower students to reach their full potential. Our platform provides a variety of learning resources, networking opportunities, and tools to help students succeed academically and personally.</p>
+  </section>
+
+  <section class="mission">
+    <h2>Mission & Vision</h2>
+    <p>Our mission is to create an inclusive and supportive community where students can thrive. We aim to empower students with the tools, resources, and networks they need to excel in their academic journey and beyond.</p>
+  </section>
+
+  <section class="team">
+    <h2>Meet our Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <h3>Mr. Rajkamal Panthagani</h3>
+        <p style="padding-left:25px;"><b>FOUNDER & CEO OF THE STUDENT SPOT</b></p>
+      </div>
+
+      <div class="team-member">
+        <h3>Ms. B Kumuda</h3>
+        <p style="padding-left:25px;"><b>Committee Member</b></p>
+        <p><strong>Stream:</strong> Engineering (CSE)</p>
+        <p><strong>College:</strong> Dr. SMCE, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong>HTML,CSS,Flexbox,
+          Bootstrap,Python,Javascript,SQL</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Mr. Surendra</h3>
+        <p style="padding-left:25px;"><b>Committee Member</b></p>
+        <p><strong>Stream:</strong> Engineering (Data Science)</p>
+        <p><strong>College:</strong> RGMCET, 2<sup>nd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Ms. A. Vaishnavi</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (IT)</p>
+        <p><strong>College:</strong> RITW, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Mr. S. Vijay Varma</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (IT)</p>
+        <p><strong>College:</strong> RITW, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Ms. B. Haritha</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (CSE - AIML)</p>
+        <p><strong>College:</strong> RGMCET, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML5, CSS, JavaScript, Bootstrap, Core Java</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Mr. K. Giri Vardhan</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (Data Science)</p>
+        <p><strong>College:</strong> Malla Reddy University, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Mr. V. Ajith Kumar</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (Data Science)</p>
+        <p><strong>College:</strong> Malla Reddy University, 3<sup>rd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Ms. C. Bhavitha</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (IT)</p>
+        <p><strong>College:</strong> MRCE, 2<sup>nd</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="team-member">
+        <h3>Ms. M. Vaishnavi</h3>
+        <p style="padding-left:35px;"><b>Coordinator</b></p>
+        <p><strong>Stream:</strong> Engineering (IT)</p>
+        <p><strong>College:</strong> IARE, 1<sup>st</sup> yr</p>
+        <p><strong>Skills:</strong> HTML, CSS, API Fundamentals, Basic Java, Python, Prompt Engineering</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="what-we-do">
+    <h2>What We Do</h2>
+    <h3 style="color:green">We Provide</h3>
+    <ul>
+      
+      <li>Internship and engineering, degree, MBA, Govt job opportunities for students</li>
+      <li>Workshops, training, events, and upskilling sessions</li>
+      <li>Hackathons, webinars, networking and coding sessions</li>
+      <li>Academic resources and career advice</li>
+    </ul>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Student Spot. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
